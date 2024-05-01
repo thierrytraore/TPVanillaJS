@@ -1,5 +1,5 @@
 function Drawing() {
-	this.ShapeArray = [];
+	this.shapeArray = new Map();
 }
 
 function Shape(startX, startY, thickness, color) {
